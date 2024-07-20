@@ -24,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${myFont.className} bg-slate-100 px-20`}>{children}</body>
+    <html dir="rtl" lang="fa">
+      <body className={`${myFont.className} bg-slate-100 px-6 lg:px-20`}>{children}</body>
     </html>
   );
 }
