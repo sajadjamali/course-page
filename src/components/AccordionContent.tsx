@@ -17,7 +17,7 @@ const AccordionContent: React.FC = () => {
             <div className='flex'>
               <ExpandMoreIcon fontSize='large' className='text-[#FF865C] text-5xl' />
               <p className='mt-2 font-bold text-[#000000DE] text-lg'>بخش اول:</p>
-              <span className='mt-2 ms-1'>اعداد مختلط</span>
+              <span className='mt-3 ms-1'>اعداد مختلط</span>
             </div>
             <p className='text-[#696dec]'>بخش رایگان</p>
           </div>
@@ -85,7 +85,7 @@ const AccordionContent: React.FC = () => {
             <div className='flex'>
               <ExpandMoreIcon fontSize='large' className='text-[#FF865C] text-5xl' />
               <p className='mt-2 font-bold text-[#000000DE] text-lg'>بخش دوم:</p>
-              <span className='mt-2 ms-1'>حد و پیوستگی توابع</span>
+              <span className='mt-3 ms-1'>حد و پیوستگی توابع</span>
             </div>
             <p className='text-[#000000DE]'>ویدیو</p>
           </div>
@@ -153,7 +153,7 @@ const AccordionContent: React.FC = () => {
             <div className='flex'>
               <ExpandMoreIcon fontSize='large' className='text-[#FF865C] text-5xl' />
               <p className='mt-2 font-bold text-[#000000DE] text-lg'>بخش دوم:</p>
-              <span className='mt-2 ms-1'>حد و پیوستگی توابع</span>
+              <span className='mt-3 ms-1'>مشتق توابع</span>
             </div>
             <p className='text-[#000000DE]'>ویدیو</p>
           </div>
