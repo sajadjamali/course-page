@@ -23,17 +23,17 @@ const AccordionContent: React.FC = () => {
           </div>
         </AccordionSummary>
         <AccordionDetails>
-          <ul className='pb-5 flex flex-col space-y-8 justify-center mx-10'>
-            <li className='hover:text-black  text-[#656565]'>
+          <ul className='pb-5 flex flex-col space-y-8 justify-center sm:mx-10 text-xs min-[460px]:text-sm sm:text-base'>
+            <li className='hover:text-black text-[#656565]'>
               <Link href="#" className='flex justify-between'>
                 <p>
-                  <span className='border-[3px] border-dashed border-[#FF865C] px-4 py-2 rounded-full me-5'>1</span>
+                  <span className='border-[3px] border-dashed border-[#FF865C] px-2 py-1 min-[420px]:px-4 min-[420px]:py-2 rounded-full me-1 min-[420px]:me-3'>1</span>
                   مفاهیم اولیه در اعداد مختلط
                 </p>
                 <div className='flex'>
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
-                  <div className='ms-3'>
+                  <div className='ms-2'>
                     دقیقه
                     <ScheduleIcon className='ms-2' />
                   </div>
@@ -43,30 +43,29 @@ const AccordionContent: React.FC = () => {
             <li className='hover:text-black text-[#656565]'>
               <Link href="#" className='flex justify-between'>
                 <p>
-                  <span className='border-[3px] border-dashed border-[#FF865C] px-4 py-2 rounded-full me-5'>2</span>
+                  <span className='border-[3px] border-dashed border-[#FF865C] px-2 py-1 min-[420px]:px-4 min-[420px]:py-2 rounded-full me-1 min-[420px]:me-3'>2</span>
                   مفاهیم اولیه در اعداد مختلط
                 </p>
                 <div className='flex'>
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
-                  <div className='ms-3'>
+                  <div className='ms-2'>
                     دقیقه
                     <ScheduleIcon className='ms-2' />
                   </div>
                 </div>
               </Link>
             </li>
-
             <li className='hover:text-black text-[#656565]'>
               <Link href="#" className='flex justify-between'>
                 <p>
-                  <span className='border-[3px] border-dashed border-[#FF865C] px-4 py-2 rounded-full me-5'>3</span>
+                  <span className='border-[3px] border-dashed border-[#FF865C] px-2 py-1 min-[420px]:px-4 min-[420px]:py-2 rounded-full me-1 min-[420px]:me-3'>3</span>
                   مفاهیم اولیه در اعداد مختلط
                 </p>
                 <div className='flex'>
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
-                  <div className='ms-3'>
+                  <div className='ms-2'>
                     دقیقه
                     <ScheduleIcon className='ms-2' />
                   </div>
@@ -91,17 +90,17 @@ const AccordionContent: React.FC = () => {
           </div>
         </AccordionSummary>
         <AccordionDetails>
-          <ul className='pb-5 flex flex-col space-y-8 justify-center mx-10'>
-            <li className='hover:text-black  text-[#656565]'>
+        <ul className='pb-5 flex flex-col space-y-8 justify-center sm:mx-10 text-xs min-[460px]:text-sm sm:text-base'>
+            <li className='hover:text-black text-[#656565]'>
               <Link href="#" className='flex justify-between'>
                 <p>
-                  <span className='border-[3px] border-dashed border-[#FF865C] px-4 py-2 rounded-full me-5'>1</span>
+                  <span className='border-[3px] border-dashed border-[#FF865C] px-2 py-1 min-[420px]:px-4 min-[420px]:py-2 rounded-full me-1 min-[420px]:me-3'>1</span>
                   مفاهیم اولیه در اعداد مختلط
                 </p>
                 <div className='flex'>
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
-                  <div className='ms-3'>
+                  <div className='ms-2'>
                     دقیقه
                     <ScheduleIcon className='ms-2' />
                   </div>
@@ -111,30 +110,29 @@ const AccordionContent: React.FC = () => {
             <li className='hover:text-black text-[#656565]'>
               <Link href="#" className='flex justify-between'>
                 <p>
-                  <span className='border-[3px] border-dashed border-[#FF865C] px-4 py-2 rounded-full me-5'>2</span>
+                  <span className='border-[3px] border-dashed border-[#FF865C] px-2 py-1 min-[420px]:px-4 min-[420px]:py-2 rounded-full me-1 min-[420px]:me-3'>2</span>
                   مفاهیم اولیه در اعداد مختلط
                 </p>
                 <div className='flex'>
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
-                  <div className='ms-3'>
+                  <div className='ms-2'>
                     دقیقه
                     <ScheduleIcon className='ms-2' />
                   </div>
                 </div>
               </Link>
             </li>
-
             <li className='hover:text-black text-[#656565]'>
               <Link href="#" className='flex justify-between'>
                 <p>
-                  <span className='border-[3px] border-dashed border-[#FF865C] px-4 py-2 rounded-full me-5'>3</span>
+                  <span className='border-[3px] border-dashed border-[#FF865C] px-2 py-1 min-[420px]:px-4 min-[420px]:py-2 rounded-full me-1 min-[420px]:me-3'>3</span>
                   مفاهیم اولیه در اعداد مختلط
                 </p>
                 <div className='flex'>
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
-                  <div className='ms-3'>
+                  <div className='ms-2'>
                     دقیقه
                     <ScheduleIcon className='ms-2' />
                   </div>
@@ -159,17 +157,17 @@ const AccordionContent: React.FC = () => {
           </div>
         </AccordionSummary>
         <AccordionDetails>
-          <ul className='pb-5 flex flex-col space-y-8 justify-center mx-10'>
-            <li className='hover:text-black  text-[#656565]'>
+        <ul className='pb-5 flex flex-col space-y-8 justify-center sm:mx-10 text-xs min-[460px]:text-sm sm:text-base'>
+            <li className='hover:text-black text-[#656565]'>
               <Link href="#" className='flex justify-between'>
                 <p>
-                  <span className='border-[3px] border-dashed border-[#FF865C] px-4 py-2 rounded-full me-5'>1</span>
+                  <span className='border-[3px] border-dashed border-[#FF865C] px-2 py-1 min-[420px]:px-4 min-[420px]:py-2 rounded-full me-1 min-[420px]:me-3'>1</span>
                   مفاهیم اولیه در اعداد مختلط
                 </p>
                 <div className='flex'>
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
-                  <div className='ms-3'>
+                  <div className='ms-2'>
                     دقیقه
                     <ScheduleIcon className='ms-2' />
                   </div>
@@ -179,30 +177,29 @@ const AccordionContent: React.FC = () => {
             <li className='hover:text-black text-[#656565]'>
               <Link href="#" className='flex justify-between'>
                 <p>
-                  <span className='border-[3px] border-dashed border-[#FF865C] px-4 py-2 rounded-full me-5'>2</span>
+                  <span className='border-[3px] border-dashed border-[#FF865C] px-2 py-1 min-[420px]:px-4 min-[420px]:py-2 rounded-full me-1 min-[420px]:me-3'>2</span>
                   مفاهیم اولیه در اعداد مختلط
                 </p>
                 <div className='flex'>
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
-                  <div className='ms-3'>
+                  <div className='ms-2'>
                     دقیقه
                     <ScheduleIcon className='ms-2' />
                   </div>
                 </div>
               </Link>
             </li>
-
             <li className='hover:text-black text-[#656565]'>
               <Link href="#" className='flex justify-between'>
                 <p>
-                  <span className='border-[3px] border-dashed border-[#FF865C] px-4 py-2 rounded-full me-5'>3</span>
+                  <span className='border-[3px] border-dashed border-[#FF865C] px-2 py-1 min-[420px]:px-4 min-[420px]:py-2 rounded-full me-1 min-[420px]:me-3'>3</span>
                   مفاهیم اولیه در اعداد مختلط
                 </p>
                 <div className='flex'>
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
-                  <div className='ms-3'>
+                  <div className='ms-2'>
                     دقیقه
                     <ScheduleIcon className='ms-2' />
                   </div>
