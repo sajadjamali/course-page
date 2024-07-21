@@ -1,5 +1,6 @@
-import Link from 'next/link';
 import React from 'react';
+import Link from 'next/link';
+import Course from './Course';
 
 const SuggestedCourses: React.FC = () => {
     return (
@@ -14,9 +15,10 @@ const SuggestedCourses: React.FC = () => {
                     اختصاصی برای شما
                 </Link>
             </div>
+
+            <Course />
         </div>
     )
 }
-// flex-col space-y-7 min-[420px]:space-y-0 min-[420px]:
-// w-52 mx-auto min-[420px]:w-auto min-[420px]:mx-0
+
 export default SuggestedCourses;

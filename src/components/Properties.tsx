@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import DoneIcon from '@mui/icons-material/Done';
+import teacher from "../assets/img/course/teacher.png";
 
 const Properties: React.FC = () => {
     return (
@@ -56,7 +57,7 @@ const Properties: React.FC = () => {
                 </div>
 
                 <div className="flex mt-12 ms-4 items-center space-x-3 rtl:space-x-reverse">
-                    <Image src="/assets/images/teacher.png" width={70} height={50} alt="teacher's avatar" />
+                    <Image src={teacher} width={70} height={50} alt="teacher's avatar" />
                     <Link target="_blank" href="https://linom.org/instructors/8">
                         <p className="font-bold text-lg">امیر ساکی</p>
                         <p className="text-gray-600 text-sm">دکترای ریاضیات محض از دانشگاه امیر کبیر</p>

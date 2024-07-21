@@ -14,7 +14,7 @@ const Header: React.FC = () => {
                 </Link>
                 <div className="relative w-72">
                     <SearchIcon className="text-sky-600 absolute right-3 top-2" />
-                    <input dir="rtl" type="text" placeholder="چی دوست داری یاد بگیری؟" className="bg-gray-200 p-2 ps-10 rounded-full w-full" />
+                    <input dir="rtl" type="text" placeholder="چی دوست داری یاد بگیری؟" className="bg-gray-200 p-2 ps-10 rounded-full w-full placeholder:text-[#5c5b5b]" />
                 </div>
             </section>
 

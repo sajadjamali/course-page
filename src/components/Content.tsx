@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import cover from "../assets/img/course/cover.png";
 import AccordionContent from "@/components/AccordionContent";
 
 const Content: React.FC = () => {
@@ -13,7 +14,7 @@ const Content: React.FC = () => {
                     </div>
                 </div>
                 <div className="relative w-full aspect-video overflow-hidden mt-10">
-                    <Image src="/assets/images/cover.png" fill className="object-cover" alt="course's cover" />
+                    <Image src={cover} fill className="object-cover" alt="course's cover" />
                 </div>
             </section>
 
