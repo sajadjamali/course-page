@@ -17,7 +17,7 @@ const Course: React.FC = () => {
             <div className="relative aspect-video overflow-hidden">
                 <Image src={coverA} fill className="object-cover" alt="دوره ی" />
             </div>
-            <div className='p-2 text-xs lg:text-sm'>
+            <div className='p-1 text-xs'>
                 <div className='text-[#8b8a8a] flex justify-between text-sm'>
                     <p>فنی و مهندسی</p>
                     <p>
@@ -25,8 +25,8 @@ const Course: React.FC = () => {
                         <ScheduleIcon className='ms-2' />
                     </p>
                 </div>
-                <p>...1</p>
-                <hr className='my-2 h-[1.35px] bg-black' />
+                <p className='text-[#565554] text-lg'>ریاضی عمومی یک</p>
+                <hr className='my-2 h-[1.4px] bg-gray-300' />
                 <div className='flex justify-between'>
                     <div className='flex space-x-2 rtl:space-x-reverse'>
                         <Image src={teacherA} width={30} height={50} alt="teacher's avatar" />
@@ -34,14 +34,14 @@ const Course: React.FC = () => {
                             <p className="text-[#787878]">محمد رجبی</p>
                         </Link>
                     </div>
-                    <p className='line-through font-bold text-[#313030]'>{convertToPersianNumber(499000)} تومان</p>
+                    <p className='line-through font-bold text-[#565554]'>{convertToPersianNumber(499000)} تومان</p>
                 </div>
                 <div className='flex justify-between items-center mt-2 text-[#313030]'>
                     <div dir='ltr' className='flex space-x-1 items-center'>
-                        <span>(بازخورد</span>
-                        <Rating sx={{ color: '#8D90FF' }} className='text-lg sm:text-xl' value={4} readOnly precision={0.5} />
+                        <span className='text-[#A5A5A5]'>(100 بازخورد)</span>
+                        <Rating sx={{ color: '#8D90FF' }} value={4} size='small' readOnly precision={0.5} />
                     </div>
-                    <p className='font-bold'>{convertToPersianNumber(399000)} تومان</p>
+                    <p className='font-bold text-[#565554]'>{convertToPersianNumber(399000)} تومان</p>
                 </div>
             </div>
         </div>

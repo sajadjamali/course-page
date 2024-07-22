@@ -33,7 +33,7 @@ const SuggestedCourses: React.FC = () => {
                         slidesPerView: 2
                     }
                 }}
-                modules={[Autoplay, Navigation]}
+                modules={[ Navigation]}
             >
                 {[1, 2, 3, 4].map((_, index) => (
                     <SwiperSlide key={index}>
