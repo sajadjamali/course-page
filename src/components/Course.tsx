@@ -36,10 +36,10 @@ const Course: React.FC = () => {
                     </div>
                     <p className='line-through font-bold text-[#313030]'>{convertToPersianNumber(499000)} تومان</p>
                 </div>
-                <div className='flex justify-between mt-2 text-[#313030]'>
+                <div className='flex justify-between items-center mt-2 text-[#313030]'>
                     <div dir='ltr' className='flex space-x-1 items-center'>
                         <span>(بازخورد</span>
-                        <Rating size='small' sx={{ color: '#8D90FF' }} value={4} readOnly precision={0.5} />
+                        <Rating sx={{ color: '#8D90FF' }} className='text-lg sm:text-xl' value={4} readOnly precision={0.5} />
                     </div>
                     <p className='font-bold'>{convertToPersianNumber(399000)} تومان</p>
                 </div>
