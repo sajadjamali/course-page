@@ -9,7 +9,7 @@ import { Autoplay, Navigation } from 'swiper/modules';
 
 const SuggestedCourses: React.FC = () => {
     return (
-        <div className='mb-96'>
+        <>
             <div className="my-12 flex flex-row justify-between">
                 <div className="flex space-x-2 rtl:space-x-reverse items-center">
                     <div className="w-[3px] h-8 bg-[#FF865C]"></div>
@@ -33,7 +33,7 @@ const SuggestedCourses: React.FC = () => {
                         slidesPerView: 2
                     }
                 }}
-                modules={[ Navigation]}
+                modules={[Autoplay, Navigation]}
             >
                 {[1, 2, 3, 4].map((_, index) => (
                     <SwiperSlide key={index}>
@@ -43,8 +43,7 @@ const SuggestedCourses: React.FC = () => {
                     </SwiperSlide>
                 ))}
             </Swiper>
-
-        </div>
+        </>
     )
 }
 

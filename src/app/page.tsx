@@ -1,3 +1,4 @@
+import Score from "@/components/Score";
 import Header from "@/components/Header";
 import Content from "@/components/Content";
 import Properties from "@/components/Properties";
@@ -11,6 +12,7 @@ export default function Home() {
         <Properties />
         <Content />
         <SuggestedCourses />
+        <Score />
       </main>
     </>
   );

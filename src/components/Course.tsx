@@ -2,14 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Rating from '@mui/material/Rating';
+import { convertToPersianNumber } from '@/utils';
 import coverA from "../assets/img/course/courseA.png";
 import ScheduleIcon from '@mui/icons-material/Schedule';
 import teacherA from "../assets/img/course/teacherA.png";
-
-function convertToPersianNumber(number: number): String {
-    const persianDigits = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
-    return number.toString().replace(/\d/g, (digit) => persianDigits[parseInt(digit)]);
-}
 
 const Course: React.FC = () => {
     return (
