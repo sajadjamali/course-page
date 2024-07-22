@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html dir="rtl" lang="fa">
-      <body className={`${myFont.className} bg-slate-50 px-4 lg:px-20`}>{children}</body>
+      <body className={`${myFont.className} bg-slate-50 px-4 min-[960px]:px-10`}>{children}</body>
     </html>
   );
 }

@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Header />
       <Introduction />
-      <main className="w-full mx-auto sm:w-11/12 sm:mx-0 lg:w-9/12 xl:w-7/12">
+      <main className="w-full min-[960px]:w-8/12 xl:w-7/12">
         <Properties />
         <Content />
         <SuggestedCourses />

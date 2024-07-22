@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Accordion from '@mui/material/Accordion';
+import { convertToPersianNumber } from '@/utils';
 import ScheduleIcon from '@mui/icons-material/Schedule';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -34,8 +35,8 @@ const AccordionContent: React.FC = () => {
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
                   <div className='ms-2'>
-                    دقیقه
-                    <ScheduleIcon className='ms-2' />
+                    '{convertToPersianNumber(15)}
+                    <ScheduleIcon className='ms-1' />
                   </div>
                 </div>
               </Link>
@@ -50,8 +51,8 @@ const AccordionContent: React.FC = () => {
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
                   <div className='ms-2'>
-                    دقیقه
-                    <ScheduleIcon className='ms-2' />
+                    '{convertToPersianNumber(15)}
+                    <ScheduleIcon className='ms-1' />
                   </div>
                 </div>
               </Link>
@@ -66,8 +67,8 @@ const AccordionContent: React.FC = () => {
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
                   <div className='ms-2'>
-                    دقیقه
-                    <ScheduleIcon className='ms-2' />
+                    '{convertToPersianNumber(15)}
+                    <ScheduleIcon className='ms-1' />
                   </div>
                 </div>
               </Link>
@@ -101,8 +102,8 @@ const AccordionContent: React.FC = () => {
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
                   <div className='ms-2'>
-                    دقیقه
-                    <ScheduleIcon className='ms-2' />
+                    '{convertToPersianNumber(15)}
+                    <ScheduleIcon className='ms-1' />
                   </div>
                 </div>
               </Link>
@@ -117,8 +118,8 @@ const AccordionContent: React.FC = () => {
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
                   <div className='ms-2'>
-                    دقیقه
-                    <ScheduleIcon className='ms-2' />
+                    '{convertToPersianNumber(15)}
+                    <ScheduleIcon className='ms-1' />
                   </div>
                 </div>
               </Link>
@@ -133,8 +134,8 @@ const AccordionContent: React.FC = () => {
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
                   <div className='ms-2'>
-                    دقیقه
-                    <ScheduleIcon className='ms-2' />
+                    '{convertToPersianNumber(15)}
+                    <ScheduleIcon className='ms-1' />
                   </div>
                 </div>
               </Link>
@@ -168,8 +169,8 @@ const AccordionContent: React.FC = () => {
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
                   <div className='ms-2'>
-                    دقیقه
-                    <ScheduleIcon className='ms-2' />
+                    '{convertToPersianNumber(15)}
+                    <ScheduleIcon className='ms-1' />
                   </div>
                 </div>
               </Link>
@@ -184,8 +185,8 @@ const AccordionContent: React.FC = () => {
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
                   <div className='ms-2'>
-                    دقیقه
-                    <ScheduleIcon className='ms-2' />
+                    '{convertToPersianNumber(15)}
+                    <ScheduleIcon className='ms-1' />
                   </div>
                 </div>
               </Link>
@@ -200,8 +201,8 @@ const AccordionContent: React.FC = () => {
                   <div className='me-2'>آزمونک: ___</div>
                   <div className='h-8 w-[1px] bg-gray-800'></div>
                   <div className='ms-2'>
-                    دقیقه
-                    <ScheduleIcon className='ms-2' />
+                    '{convertToPersianNumber(15)}
+                    <ScheduleIcon className='ms-1' />
                   </div>
                 </div>
               </Link>
