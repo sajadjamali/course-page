@@ -13,11 +13,11 @@ function convertToPersianNumber(number: number): String {
 
 const Course: React.FC = () => {
     return (
-        <div className='w-5/12 mb-40 rounded-md border-2 border-gray-200'>
+        <div className='rounded-md border-2 border-gray-200'>
             <div className="relative aspect-video overflow-hidden">
                 <Image src={coverA} fill className="object-cover" alt="دوره ی" />
             </div>
-            <div className='p-2'>
+            <div className='p-2 text-xs lg:text-sm'>
                 <div className='text-[#8b8a8a] flex justify-between text-sm'>
                     <p>فنی و مهندسی</p>
                     <p>
@@ -34,14 +34,14 @@ const Course: React.FC = () => {
                             <p className="text-[#787878]">محمد رجبی</p>
                         </Link>
                     </div>
-                    <p className='line-through text-[#313030]'>{convertToPersianNumber(499000)} تومان</p>
+                    <p className='line-through font-bold text-[#313030]'>{convertToPersianNumber(499000)} تومان</p>
                 </div>
                 <div className='flex justify-between mt-2 text-[#313030]'>
-                    <div dir='ltr' className='flex items-center'>
-                        <Rating sx={{ color: '#8D90FF' }} value={4} readOnly precision={0.5} />
+                    <div dir='ltr' className='flex space-x-1 items-center'>
+                        <span>(بازخورد</span>
+                        <Rating size='small' sx={{ color: '#8D90FF' }} value={4} readOnly precision={0.5} />
                     </div>
-                    <span className='text-sm ms-2'>بازخورد)</span>
-                    <p>{convertToPersianNumber(399000)} تومان</p>
+                    <p className='font-bold'>{convertToPersianNumber(399000)} تومان</p>
                 </div>
             </div>
         </div>

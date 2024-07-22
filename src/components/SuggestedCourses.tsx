@@ -1,11 +1,16 @@
+'use client'
 import React from 'react';
 import Link from 'next/link';
 import Course from './Course';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import { Autoplay, Navigation } from 'swiper/modules';
 
 const SuggestedCourses: React.FC = () => {
     return (
-        <div className='mb-20'>
-            <div className="mt-16 flex flex-row justify-between">
+        <div className='mb-96'>
+            <div className="my-12 flex flex-row justify-between">
                 <div className="flex space-x-2 rtl:space-x-reverse items-center">
                     <div className="w-[3px] h-8 bg-[#FF865C]"></div>
                     <p className="font-bold min-[420px]:text-xl">دوره های پیشنهادی</p>
@@ -15,8 +20,30 @@ const SuggestedCourses: React.FC = () => {
                     اختصاصی برای شما
                 </Link>
             </div>
+            <Swiper
+                className="mySwiper"
+                slidesPerView={1}
+                loop={true}
+                autoplay={{
+                    delay: 4000
+                }}
+                navigation={true}
+                breakpoints={{
+                    600: {
+                        slidesPerView: 2
+                    }
+                }}
+                modules={[Autoplay, Navigation]}
+            >
+                {[1, 2, 3, 4].map((_, index) => (
+                    <SwiperSlide key={index}>
+                        <div className='w-10/12 mx-auto'>
+                            <Course />
+                        </div>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
 
-            <Course />
         </div>
     )
 }

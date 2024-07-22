@@ -23,7 +23,7 @@ const AccordionContent: React.FC = () => {
           </div>
         </AccordionSummary>
         <AccordionDetails>
-          <ul className='pb-5 flex flex-col space-y-8 justify-center sm:mx-10 text-xs min-[460px]:text-sm sm:text-base'>
+          <ul className='pb-5 flex flex-col space-y-8 justify-center md:mx-10 text-xs min-[460px]:text-sm sm:text-base'>
             <li className='hover:text-black text-[#656565]'>
               <Link href="#" className='flex justify-between'>
                 <p>
@@ -90,7 +90,7 @@ const AccordionContent: React.FC = () => {
           </div>
         </AccordionSummary>
         <AccordionDetails>
-        <ul className='pb-5 flex flex-col space-y-8 justify-center sm:mx-10 text-xs min-[460px]:text-sm sm:text-base'>
+        <ul className='pb-5 flex flex-col space-y-8 justify-center md:mx-10 text-xs min-[460px]:text-sm sm:text-base'>
             <li className='hover:text-black text-[#656565]'>
               <Link href="#" className='flex justify-between'>
                 <p>
@@ -157,7 +157,7 @@ const AccordionContent: React.FC = () => {
           </div>
         </AccordionSummary>
         <AccordionDetails>
-        <ul className='pb-5 flex flex-col space-y-8 justify-center sm:mx-10 text-xs min-[460px]:text-sm sm:text-base'>
+        <ul className='pb-5 flex flex-col space-y-8 justify-center md:mx-10 text-xs min-[460px]:text-sm sm:text-base'>
             <li className='hover:text-black text-[#656565]'>
               <Link href="#" className='flex justify-between'>
                 <p>
