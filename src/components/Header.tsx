@@ -6,7 +6,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const Header: React.FC = () => {
     return (
-        <div className="flex space-y-7 sm:space-x-5 rtl:space-x-reverse sm:space-y-0 flex-col sm:flex-row sm:justify-between items-center py-6">
+        <div className="flex text-xs md:text-sm space-y-7 sm:space-x-5 rtl:space-x-reverse sm:space-y-0 flex-col sm:flex-row sm:justify-between items-center py-6 xl:w-10/12 2xl:w-7/12 mx-auto">
             <section className="flex flex-col sm:flex-row justify-center items-center space-y-5 sm:space-y-0 sm:space-x-4 rtl:space-x-reverse">
                 <Link href="#" className="flex justify-center py-2 items-center px-2 text-white bg-[#FF865C] rounded-lg">
                     <KeyboardArrowDownIcon />

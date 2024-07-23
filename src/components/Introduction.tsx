@@ -1,11 +1,10 @@
 import React from 'react';
-import Image from 'next/image';
-import backgroundImage from '../assets/img/course/backgroundImage.png';
-import cover from "../assets/img/course/cover.png";
 import Link from 'next/link';
-import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import Image from 'next/image';
 import { convertToPersianNumber } from '@/utils';
-import Description from './Description';
+import cover from "../assets/img/course/cover.png";
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import backgroundImage from '../assets/img/course/backgroundImage.png';
 
 const Introduction: React.FC = () => {
     return (
@@ -23,7 +22,16 @@ const Introduction: React.FC = () => {
             <div className="relative aspect-video overflow-hidden my-6 rounded-lg min-[960px]:hidden">
                 <Image src={cover} fill className="object-cover" alt="course's cover" />
             </div>
-            <div className="relative xl:w-10/12 2xl:w-8/12 mx-auto h-72 my-6 overflow-hidden rounded-lg hidden min-[960px]:block">
+            <div
+                // style={{
+                //     width: "100px",
+                //     height: "100px",
+                //     backgroundSize: "100% 100%",
+                //     border: "2px solid red",
+                //     backgroundImage: require('url(../assets/img/course/backgroundImage.png)')
+                // }}
+                className="relative xl:w-10/12 2xl:w-7/12 mx-auto h-64 my-6 overflow-hidden rounded-lg hidden min-[960px]:block"
+            >
                 <Image src={backgroundImage} fill className="object-cover" alt="course's cover" />
             </div>
 
@@ -35,7 +43,6 @@ const Introduction: React.FC = () => {
                 </p>
                 <hr className='mt-2 h-[1.9px] bg-gray-300' />
             </div>
-            <Description />
         </div>
     )
 }
