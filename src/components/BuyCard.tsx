@@ -37,7 +37,7 @@ const BuyCard: React.FC = () => {
                 <p className='line-through decoration-red-600 decoration-2'>{convertToPersianNumber(499000)}</p>
                 <p>{convertToPersianNumber(399000)} تومان</p>
             </div>
-            <button className='bg-[#FF865C] w-full rounded-lg py-3 mt-4 text-white'>افزودن به سبد خرید</button>
+            <button className='bg-[#FF865C] w-full font-bold rounded-lg py-3 mt-4 text-white'>افزودن به سبد خرید</button>
         </section>
     )
 }

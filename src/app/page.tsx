@@ -20,7 +20,7 @@ export default function Home() {
           <SuggestedCourses />
           <Score />
         </div>
-        <div className="relative bottom-64">
+        <div className="relative bottom-64 hidden min-[960px]:block">
           <div className="sticky top-5">
             <BuyCard />
           </div>
