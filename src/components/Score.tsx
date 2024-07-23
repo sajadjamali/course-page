@@ -19,7 +19,7 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 
 const Score: React.FC = () => {
     return (
-        <div className='my-16 pb-96'>
+        <div className='my-16 pb-32'>
             <section className="flex space-x-2 rtl:space-x-reverse items-center">
                 <div className="w-[3px] h-8 bg-[#FF865C]"></div>
                 <p className="font-bold min-[420px]:text-xl">امتیاز این آموزش</p>
